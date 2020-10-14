@@ -1,0 +1,18 @@
+{
+  "name": "disgit_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon ./src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ronak Sanpui,Sandip Maity,Debarsi Sadhukhan",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.2.0",
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.5"
+  }
+}
