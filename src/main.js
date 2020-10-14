@@ -11,7 +11,7 @@ client.once("ready", () => {
 
 client.on("message", (msg) => {
   if (msg.content === ";ping") {
-    msg.channel.send("Pong.");
+    msg.channel.send("Pong Pong.");
   }
 });
 
