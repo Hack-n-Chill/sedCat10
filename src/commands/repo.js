@@ -7,7 +7,7 @@ module.exports = {
       return;
     }
     switch (args[0]) {
-      case "track":
+      case "list":
         message.channel.send("Tracking something");
         break;
 
@@ -27,7 +27,7 @@ module.exports = {
         break;
       default:
         message.channel.send(
-          "Unkonwn Command!Please use with add list or remove"
+          "Unkonwn Arguement!Please use with add list or remove"
         );
     }
   },
