@@ -1,18 +1,17 @@
 {
-  "name": "disgit_bot",
+  "name": "BOT",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon ./src/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ronak Sanpui,Sandip Maity,Debarsi Sadhukhan",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "debug": "^4.2.0",
     "discord.js": "^12.3.1",
     "dotenv": "^8.2.0",
-    "nodemon": "^2.0.5"
+    "node-fetch": "^2.6.1"
   }
 }
